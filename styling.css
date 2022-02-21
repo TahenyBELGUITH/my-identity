@@ -117,6 +117,7 @@ body {
 
 .project-body ul {
   list-style: none;
+
   /* justify-content: space-between;
   flex-wrap: wrap; */
   float: left;
@@ -130,6 +131,7 @@ body {
   font-size: 9px;
   padding: 4px 7px;
   position: relative;
+
   /* margin: 20px; */
   margin: 2px;
 }
