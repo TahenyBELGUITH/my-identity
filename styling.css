@@ -195,7 +195,7 @@ form button:hover {
   padding: 50px;
   margin: 20px 0;
   background-color: #1c528a;
-  background-image: url("images/languages-shape.svg");
+  background-image: url("images/languages.svg");
   background-repeat: no-repeat;
   position: relative;
   background-position: 100% 100%;
@@ -226,7 +226,7 @@ form button:hover {
   padding: 50px;
   margin: 20px 0;
   background-color: #e2505c;
-  background-image: url("images/frameworks-shape.svg");
+  background-image: url("images/frameworks.svg");
   background-repeat: no-repeat;
   position: relative;
   background-position: 100% 100%;
@@ -237,7 +237,7 @@ form button:hover {
   padding: 50px;
   margin: 20px 0;
   background-color: #febf52;
-  background-image: url("images/skills-shape.svg");
+  background-image: url("images/skills.svg");
   background-repeat: no-repeat;
   position: relative;
   background-position: 100% 100%;
