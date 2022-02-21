@@ -105,6 +105,7 @@ body {
   background-color: #1a2236;
   padding: 30px;
   margin-top: -19px;
+  flex-direction: column;
 }
 
 .project-body h3 {
@@ -116,8 +117,9 @@ body {
 
 .project-body ul {
   list-style: none;
-  justify-content: space-between;
-  flex-wrap: wrap;
+  /* justify-content: space-between;
+  flex-wrap: wrap; */
+  float: left;
   margin: 20px 0;
   width: 85%;
   position: relative;
@@ -128,7 +130,12 @@ body {
   font-size: 9px;
   padding: 4px 7px;
   position: relative;
-  margin: 0;
+  /* margin: 20px; */
+  margin: 2px;
+}
+
+.btn-project-container {
+  width: 100%;
 }
 
 .btn-project-container button {
@@ -148,7 +155,6 @@ body {
 }
 
 .about-section-container {
-  border: 2px solid red;
   padding: 26px 16px;
 }
 
