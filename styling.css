@@ -136,8 +136,6 @@ footer nav ul {
   font-size: 9px;
   padding: 4px 7px;
   position: relative;
-
-  /* margin: 20px; */
   margin: 2px;
 }
 
@@ -204,11 +202,8 @@ form button:hover {
   padding: 50px;
   margin: 20px 0;
   background-color: #1c528a;
-<<<<<<< HEAD
   background-image: url("images/languages.svg");
-=======
   background-image: url("images/languages-shape.svg");
->>>>>>> 32530798545b3721bd9bc6e89794831bfe1a214d
   background-repeat: no-repeat;
   position: relative;
   background-position: 100% 100%;
@@ -239,11 +234,8 @@ form button:hover {
   padding: 50px;
   margin: 20px 0;
   background-color: #e2505c;
-<<<<<<< HEAD
   background-image: url("images/frameworks.svg");
-=======
   background-image: url("images/frameworks-shape.svg");
->>>>>>> 32530798545b3721bd9bc6e89794831bfe1a214d
   background-repeat: no-repeat;
   position: relative;
   background-position: 100% 100%;
@@ -254,17 +246,13 @@ form button:hover {
   padding: 50px;
   margin: 20px 0;
   background-color: #febf52;
-<<<<<<< HEAD
   background-image: url("images/skills.svg");
-=======
   background-image: url("images/skills-shape.svg");
->>>>>>> 32530798545b3721bd9bc6e89794831bfe1a214d
   background-repeat: no-repeat;
   position: relative;
   background-position: 100% 100%;
   background-size: 80px;
 }
-<<<<<<< HEAD
 
 .form-container {
   background-color: #f9f9fa;
@@ -348,5 +336,3 @@ footer a {
   padding-left: 16px;
   text-decoration: none;
 }
-=======
->>>>>>> 32530798545b3721bd9bc6e89794831bfe1a214d
