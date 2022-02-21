@@ -43,6 +43,10 @@
 - Twitter: @BelguithTaheny
 - LinkedIn: belguith taheny
 
+## 👩 Collaborator:
+- GitHub: [@githubhandle](https://github.com/edubew)
+- Twitter: [@twitterhandle](https://twitter.com/@edube_winne)
+- LinkedIn: [LinkedIn](https://linkedin.com/in/winfred-edube-9820a422a/)
 
 ### 🤝 Contributing
 
