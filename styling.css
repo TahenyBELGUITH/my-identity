@@ -270,6 +270,10 @@ form button:hover {
   margin: 20px 0;
 }
 
+form {
+  flex-direction: column;
+}
+
 input[type="text"],
 [type="email"] {
   width: 100%;
