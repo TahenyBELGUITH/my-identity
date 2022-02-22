@@ -336,3 +336,88 @@ footer a {
   padding-left: 16px;
   text-decoration: none;
 }
+
+/* tablets */
+@media only screen and (min-width: 600px) {
+  .intro-container {
+    padding: 60px;
+  }
+
+  .intro-container h1 {
+    font-size: 70px;
+    font-weight: 700;
+  }
+
+  .intro-container p {
+    font-size: 20px;
+    line-height: 40px;
+  }
+
+  .btn-collaborate {
+    font-size: 30px;
+    padding: 20px 0;
+  }
+
+  .projects-header {
+    font-size: 40px;
+  }
+
+  .project-body h3 {
+    font-size: 35px;
+  }
+
+  .project-body ul li {
+    width: 100%;
+    font-size: 20px;
+  }
+
+  .btn-project-container button {
+    font-size: 30px;
+    width: 55%;
+  }
+
+  .about-section-container {
+    padding: 50px 92px;
+  }
+
+  .about-container h2 {
+    font-size: 80px;
+  }
+
+  .about-container p {
+    font-size: 23px;
+    line-height: 45px;
+  }
+
+  .languages-container h3,
+  .frameworks-container h3,
+  .skills-container h3 {
+    font-size: 30px;
+  }
+
+  .languages-container ul li,
+  .frameworks-container ul li,
+  .skills-container ul li {
+    font-size: 20px;
+  }
+
+  .form-container {
+    padding: 170px 145px 50px 145px;
+  }
+
+  .form-container h2 {
+    font-size: 62px;
+  }
+
+  .form-container p {
+    font-size: 20px;
+    line-height: 35px;
+  }
+}
+
+/* Desktop */
+@media only screen and (min-width: 768px) {
+  .hide {
+    display: none;
+  }
+}

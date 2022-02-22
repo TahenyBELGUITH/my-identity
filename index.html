@@ -13,14 +13,22 @@
 <body>
   <header>
     <div class="header-container width-100 display-flex">
-      <img src="images/header-mobile.svg" alt="mobile header">
-      <img class="menu-icon" src="images/menu-icon-mobile.svg" alt="menu icon">
+      <img class="hide" src="images/header-mobile.svg" alt="mobile header">
+      <img class="hide menu-icon" src="images/menu-icon-mobile.svg" alt="menu icon">
+      <nav>
+        <ul>
+          <li>Hello</li>
+          <li>Porfolio</li>
+          <li>About</li>
+          <li>Contact</li>
+        </ul>
+      </nav>
     </div>
   </header>
   <main>
 
     <!-- intro section -->
-    <section class="intro">
+    <section class="intro" id="intro">
       <div class="intro-container">
         <h1>Taheny BELGUITH</h1>
         <p>Hello! I am a software developer! I can help you build a product, feature or website. Taka a look of my
@@ -31,11 +39,11 @@
     </section>
 
     <div class="separator-shape width-100">
-      <img src="images/separator-mobile.svg" alt="separator shape mobile">
+      <img class="hide" src="images/separator-mobile.svg" alt="separator shape mobile">
     </div>
 
     <!-- projects section -->
-    <section class="projects-section">
+    <section class="projects-section" id="works">
       <div class="projects-section-container width-100">
         <div class="projects-header">
           <h1>Projects</h1>
@@ -155,7 +163,7 @@
     </section>
 
     <!-- about section -->
-    <section class="about">
+    <section class="about" id="about-me">
       <div class="about-section-container">
 
         <!-- about div -->
@@ -209,7 +217,7 @@
 
 
     <!-- contact form -->
-    <section class="form-section">
+    <section class="form-section" id="contact">
       <div class="form-container">
         <h2>Get started</h2>
         <p>Hello! I am a software developer! I can help you build a product, feature or website. Taka a look of my
@@ -224,6 +232,8 @@
       </div>
     </section>
   </main>
+
+  <!-- footer -->
   <footer>
     <div class="footer-container">
       <a href="#">Get my Resume <i class="fa-solid fa-arrow-down-wide-short"></i></a>
