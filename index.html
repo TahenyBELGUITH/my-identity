@@ -15,8 +15,8 @@
     <div class="header-container width-100 display-flex">
       <img class="hide" src="images/header-mobile.svg" alt="mobile header">
       <img class="hide menu-icon" src="images/menu-icon-mobile.svg" alt="menu icon">
-      <nav>
-        <ul>
+      <nav class="display-flex hide-in-mobile show">
+        <ul class=" display-flex">
           <li>Hello</li>
           <li>Porfolio</li>
           <li>About</li>
@@ -29,12 +29,22 @@
 
     <!-- intro section -->
     <section class="intro" id="intro">
-      <div class="intro-container">
-        <h1>Taheny BELGUITH</h1>
-        <p>Hello! I am a software developer! I can help you build a product, feature or website. Taka a look of my
-          works.
-          If you like what you see and have a project you need coded, don’t hesitate and contact me</p>
-        <button class="btn-collaborate width-100" type="submit">start collaboration</button>
+      <div class="desktop-intro-container display-flex width-100">
+        <div class="intro-container">
+          <h1>Taheny BELGUITH</h1>
+          <p>Hello! I am a software developer! I can help you build a product, feature or website. Taka a look of my
+            works.
+            If you like what you see and have a project you need coded, don’t hesitate and contact me</p>
+          <button class="btn-collaborate width-100" type="submit">start collaboration</button>
+        </div>
+        <!-- desktop shapes -->
+        <!-- <div class="dots hide-in-mobile show">
+          <img  class="width-100" src="images/desktopdots.svg" alt="dots">
+        </div> -->
+        <div class="desktop-shape hide-in-mobile show">
+          <img class="width-100" src="images/desktopintro.svg" alt="desktop intro">
+        </div>
+        <!-- end of desktop shapes -->
       </div>
     </section>
 
@@ -68,8 +78,9 @@
             </div>
           </div>
 
+
           <!-- project-two -->
-          <div class="project-one-container width-100">
+          <div class="project-one-container width-100 hide">
             <div class="project-image">
               <img class="width-100" src="images/project-two.svg" alt="project two">
             </div>
@@ -86,8 +97,9 @@
             </div>
           </div>
 
+
           <!-- project three -->
-          <div class="project-one-container width-100">
+          <div class="project-one-container width-100 hide">
             <div class="project-image">
               <img class="width-100" src="images/project-three.svg" alt="project two">
             </div>
@@ -105,7 +117,7 @@
           </div>
 
           <!-- project four -->
-          <div class="project-one-container width-100">
+          <div class="project-one-container width-100 hide">
             <div class="project-image">
               <img class="width-100" src="images/project-four.svg" alt="project two">
             </div>
@@ -123,7 +135,7 @@
           </div>
 
           <!-- project-five -->
-          <div class="project-one-container width-100">
+          <div class="project-one-container width-100 hide">
             <div class="project-image">
               <img class="width-100" src="images/project-five.svg" alt="project two">
             </div>
@@ -142,7 +154,7 @@
 
           <!-- project six -->
 
-          <div class="project-one-container width-100">
+          <div class="project-one-container width-100 hide">
             <div class="project-image">
               <img class="width-100" src="images/project-six.svg" alt="project two">
             </div>
@@ -160,11 +172,48 @@
           </div>
         </div>
       </div>
+
+      <!-- desktop shapes -->
+      <div class="desktop-shapes">
+        <div class="grp-one-container width-100">
+          <img class="win1 hide-in-mobile show width-100" src="images/project-two.svg" alt="project two">
+          <img class="win2 hide-in-mobile show" src="images/shapes-project-one.svg" alt="shape">
+          <div class="deskproj">
+            <img class="win3 hide-in-mobile show width-100" src="images/project-six.svg" alt="project three">
+            <div class="project-body-desk">
+              <h3>project name goes here</h3>
+              <ul class="display-flex">
+                <li>HTML/CSS</li>
+                <li>Ruby on Rails</li>
+                <li>+1</li>
+              </ul>
+              <div class="btn-project-container-desk display-flex">
+                <button type="button">see project <i class="fa-solid fa-arrow-right"></i></button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="grp-two-container width-100">
+
+          <img class="win4 hide-in-mobile show" src="images/project-three.svg" alt="shape">
+          <img class="win6 hide-in-mobile show" src="images/shapes-project-two.svg" alt="shape">
+          <img class="win5 hide-in-mobile show width-100" src="images/project-five.svg" alt="project four">
+
+        </div>
+        <div class="grp-three-container width-100">
+          <img class="win8 hide-in-mobile show" src="images/shape-project31.svg" alt="shape">
+          <img class="win7 hide-in-mobile show" src="images/shape-project3.svg" alt="project five">
+          <img class="win9 hide-in-mobile show" src="images/project-four.svg" alt="project six">
+        </div>
+      </div>
+      <!-- end desktop shapes -->
+
     </section>
 
     <!-- about section -->
     <section class="about" id="about-me">
-      <div class="about-section-container">
+      <div class="about-section-container width-100">
 
         <!-- about div -->
         <div class="about-container">
@@ -175,43 +224,45 @@
           <button class="btn-collaborate width-100" type="submit">Get my CV</button>
         </div>
 
-        <!-- languages div -->
-        <div class="languages-container">
-          <h3>Languages</h3>
-          <ul>
-            <li>JavaScript(ES5/ES6)</li>
-            <li>Ruby</li>
-            <li>HTML</li>
-            <li>CSS</li>
-          </ul>
+        <div class="desktop-container width-100">
+          <!-- languages div -->
+          <div class="languages-container">
+            <h3>Languages</h3>
+            <ul>
+              <li>JavaScript(ES5/ES6)</li>
+              <li>Ruby</li>
+              <li>HTML</li>
+              <li>CSS</li>
+            </ul>
+          </div>
+
+          <!-- Frameworks div -->
+          <div class="frameworks-container">
+            <h3>Frameworks</h3>
+            <ul>
+              <li>Bootstrap</li>
+              <li>Ruby on rails</li>
+              <li>RSpec</li>
+              <li>Capibara</li>
+              <li>Selinium</li>
+            </ul>
+          </div>
+
+
+          <!-- skills div -->
+          <div class="skills-container">
+            <h3>skills</h3>
+            <ul>
+              <li>Codekit</li>
+              <li>Codepen</li>
+              <li>GitHub</li>
+              <li>GitLab</li>
+              <li>Terminal</li>
+            </ul>
+          </div>
+
+          <div class="background"></div>
         </div>
-
-        <!-- Frameworks div -->
-        <div class="frameworks-container">
-          <h3>Frameworks</h3>
-          <ul>
-            <li>Bootstrap</li>
-            <li>Ruby on rails</li>
-            <li>RSpec</li>
-            <li>Capibara</li>
-            <li>Selinium</li>
-          </ul>
-        </div>
-
-
-        <!-- skills div -->
-        <div class="skills-container">
-          <h3>skills</h3>
-          <ul>
-            <li>Codekit</li>
-            <li>Codepen</li>
-            <li>GitHub</li>
-            <li>GitLab</li>
-            <li>Terminal</li>
-          </ul>
-        </div>
-
-
       </div>
     </section>
 
@@ -227,7 +278,9 @@
           <input type="text" name="name" placeholder="Your name" required>
           <input type="email" name="email" placeholder="Your email" required>
           <textarea name="message" placeholder="Write your message here" maxlength="500" required></textarea>
-          <button type="submit">start collaboration</button>
+          <div class="btn">
+            <button type="submit">start collaboration</button>
+          </div>
         </form>
       </div>
     </section>
@@ -255,7 +308,7 @@
               alt="linkedin pic" /></a>
         </li>
         <li>
-          <a href="mailto: taheny.belguith@gmail.com"><img src="images/mail.svg" alt="mail pic" /></a>
+          <a href="mailto:taheny.belguith@gmail.com"><img src="images/mail.svg" alt="mail pic" /></a>
         </li>
         <li>
           <a href="https://angel.co/u/taheny-belguith"><img src="images/angelist.svg" alt="angellist pic" /></a>
