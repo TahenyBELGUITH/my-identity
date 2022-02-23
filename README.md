@@ -3,13 +3,8 @@
 > This is my portfolio using Figma Template
 
 <p align="center">
-  <img src="images/form.png"/>
+  <img src="images/desktop.PNG/">
 </p>
-
-<p align="center">
-  <img src="images/form2.png"/>
-</p>
-
 
 ## Built with
 
