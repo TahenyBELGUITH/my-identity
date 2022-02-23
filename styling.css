@@ -428,7 +428,7 @@ footer a {
 }
 
 /* Desktop */
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 992px) {
   .hide {
     display: none;
   }
@@ -472,6 +472,11 @@ footer a {
     margin-right: 12px;
     font-size: 12px;
     padding: 10px;
+  }
+
+  a {
+    text-decoration: none;
+    color: #1a2236;
   }
 
   .header-container nav ul {
@@ -553,7 +558,9 @@ footer a {
   }
 
   form button {
-    width: 30%;
+    width: 40%;
+    padding: 20px;
+    font-size: 20px;
   }
 
   .btn-project-container-desk button {
@@ -594,6 +601,7 @@ footer a {
     display: flex;
     flex-direction: column;
     position: relative;
+    margin: 100px 0;
   }
 
   .grp-one-container,
@@ -643,13 +651,12 @@ footer a {
     position: relative;
     display: flex;
     flex-direction: row-reverse;
-    margin: 100px 0;
+    padding: 50px;
   }
 
   .about-container {
     position: relative;
-    margin: 90px;
-    width: 40%;
+    margin: 53px;
   }
 
   .about-container h2 {
@@ -683,14 +690,16 @@ footer a {
   }
 
   .form-container {
-    background:
+    background-color: #f9f9fa;
+    background-image:
       url("images/formtop.svg"),
       url("images/formbuttom.svg");
     background-repeat: no-repeat;
     background-position: 0 0, 100% 100%;
     background-size: 20%;
     text-align: left;
-    padding: 250px;
+    margin: 100px 0 0 0;
+    padding: 240px;
   }
 
   .form-container h2 {
@@ -701,13 +710,16 @@ footer a {
 
   input[type="text"],
   input[type="email"] {
-    width: 49%;
+    width: 45%;
     display: inline-block;
+    height: 55px;
+    margin-right: 20px;
   }
 
   textarea {
-    width: 99%;
+    width: 95%;
     height: 250px;
+    margin-top: 20px;
   }
 
   .btn {
