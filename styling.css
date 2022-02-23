@@ -120,6 +120,10 @@ footer nav ul {
   margin-top: 30px;
 }
 
+footer nav ul li {
+  margin-left: 20px;
+}
+
 .project-body ul {
   list-style: none;
 
@@ -457,6 +461,19 @@ footer a {
     text-align: center;
   }
 
+  .project-body-desk ul {
+    list-style: none;
+    color: #1a2236;
+    padding-left: 20px;
+  }
+
+  .project-body-desk ul li {
+    background-color: #98dede;
+    margin-right: 12px;
+    font-size: 12px;
+    padding: 10px;
+  }
+
   .header-container nav ul {
     list-style: none;
     padding: 32px 0;
@@ -525,7 +542,6 @@ footer a {
   .project-body-desk {
     position: relative;
     margin-top: -177px;
-    position: relative;
     background-color: #1a2236;
     padding: 0;
     flex-direction: column;
@@ -536,26 +552,18 @@ footer a {
     color: white;
   }
 
-  .project-body-desk ul {
-    list-style: none;
-    color: #1a2236;
-    padding-left: 20px;
+  form button {
+    width: 30%;
   }
 
-  .project-body-desk ul li {
-    background-color: #98dede;
-    margin-right: 12px;
-    font-size: 12px;
-    padding: 10px;
+  .btn-project-container-desk button {
+    width: 40%;
+    background-color: #1a2236;
+    border: 1px solid white;
+    color: white;
+    padding: 13px;
+    margin: 11px 0 14px 20px;
   }
-.btn-project-container-desk button {
-  width: 40%;
-  background-color: #1a2236;
-  border: 1px solid white;
-  color: white;
-  padding: 13px;
-  margin: 11px 0 14px 20px;
-}
 
   .projects-header {
     padding: 0;
@@ -702,10 +710,6 @@ footer a {
     height: 250px;
   }
 
-  form button {
-    width: 50%;
-  }
-
   .btn {
     display: flex;
     justify-content: center;
@@ -717,17 +721,12 @@ footer a {
     padding: 40px;
   }
 
-  footer a,
-  footer nav ul {
+  footer a {
     padding: 0;
     margin: 0;
   }
 
-  footer nav ul {
-    margin-right: 60px;
-  }
-
-  footer nav ul li {
-    margin-left: 20px;
+  footer .footer-desk ul {
+    margin: 0;
   }
 }
