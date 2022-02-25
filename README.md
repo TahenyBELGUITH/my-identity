@@ -3,11 +3,7 @@
 > This is my portfolio using Figma Template
 
 <p align="center">
-  <img src="images/mobile.png"/>
-</p>
-
-<p align="center">
-  <img src="images/projects.png"/>
+  <img src="images/desktop.PNG/">
 </p>
 
 ## Built with
@@ -17,7 +13,7 @@
 
 ## Live demo
 
-[My portfolio](https://tahenybelguith.github.io/my-identity/)
+[My portfolio](https://tahenybelguith.github.io/my-identity/) 
 
 ## Getting Started
 

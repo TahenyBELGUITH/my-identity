@@ -2,212 +2,317 @@
 <html lang="en">
 
 <head>
- <meta charset="UTF-8">
- <meta http-equiv="X-UA-Compatible" content="IE=edge">
- <meta name="viewport" content="width=device-width, initial-scale=1.0">
- <link rel="stylesheet" href="styling.css">
- <script src="https://kit.fontawesome.com/1a9dfed18f.js" crossorigin="anonymous"></script>
- <title>my Identity</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styling.css">
+  <script src="https://kit.fontawesome.com/1a9dfed18f.js" crossorigin="anonymous"></script>
+  <title>my Identity</title>
 </head>
 
 <body>
- <header>
-  <div class="header-container width-100 display-flex">
-   <img src="images/header-mobile.svg" alt="mobile header">
-   <img class="menu-icon" src="images/menu-icon-mobile.svg" alt="menu icon">
-  </div>
- </header>
- <main>
-
-  <!-- intro section -->
-  <section class="intro">
-   <div class="intro-container">
-    <h1>Taheny BELGUITH</h1>
-    <p>Hello! I am a software developer! I can help you build a product, feature or website. Taka a look of my works.
-     If you like what you see and have a project you need coded, don’t hesitate and contact me</p>
-    <button class="btn-collaborate width-100" type="submit">start collaboration</button>
-   </div>
-  </section>
-
-  <div class="separator-shape width-100">
-   <img src="images/separator-mobile.svg" alt="separator shape mobile">
-  </div>
-
-  <!-- projects section -->
-  <section class="projects-section">
-   <div class="projects-section-container width-100">
-    <div class="projects-header">
-     <h1>Projects</h1>
+  <header>
+    <div class="header-container width-100 display-flex">
+      <img class="hide" src="images/header-mobile.svg" alt="mobile header">
+      <img class="hide menu-icon" src="images/menu-icon-mobile.svg" alt="menu icon">
+      <nav class="display-flex hide-in-mobile show">
+        <ul class=" display-flex">
+          <li><a href="#intro">Hello</a></li>
+          <li><a href="#works">Porfolio</a></li>
+          <li><a href="#about-me">About</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
     </div>
-    <div class="all-projects-container width-100">
+  </header>
+  <main>
 
-     <!-- project-one -->
-     <div class="project-one-container width-100 display-flex">
-      <div class="project-image width-100">
-       <img class="project-image width-100" src="images/project-one.svg" alt="project one">
+    <!-- intro section -->
+    <section class="intro" id="intro">
+      <div class="desktop-intro-container display-flex width-100">
+        <div class="intro-container">
+          <h1>Taheny BELGUITH</h1>
+          <p>Hello! I am a software developer! I can help you build a product, feature or website. Taka a look of my
+            works.
+            If you like what you see and have a project you need coded, don’t hesitate and contact me</p>
+          <button class="btn-collaborate width-100" type="submit">start collaboration</button>
+        </div>
+        <!-- desktop shapes -->
+        <div class="desktop-shape hide-in-mobile show">
+          <img class="width-100" src="images/desktopintro.svg" alt="desktop intro">
+        </div>
+        <!-- end of desktop shapes -->
       </div>
-      <div class="project-body display-flex">
-       <h3>project name goes here</h3>
-       <ul>
-        <li>HTML/CSS</li>
-        <li>Ruby on Rails</li>
-        <li>javaScript</li>
-       </ul>
-       <div class="btn-project-container display-flex">
-        <button type="button">see project <i class="fa-solid fa-arrow-right"></i></button>
-       </div>
-      </div>
-     </div>
+    </section>
 
-     <!-- project-two -->
-     <div class="project-one-container width-100">
-      <div class="project-image">
-       <img class="width-100" src="images/project-two.svg" alt="project two">
-      </div>
-      <div class="project-body">
-       <h3>project name goes here</h3>
-       <ul class="display-flex">
-        <li>HTML/CSS</li>
-        <li>Ruby on Rails</li>
-        <li>javaScript</li>
-       </ul>
-       <div class="btn-project-container display-flex">
-        <button type="button">see project <i class="fa-solid fa-arrow-right"></i></button>
-       </div>
-      </div>
-     </div>
-
-     <!-- project three -->
-     <div class="project-one-container width-100">
-      <div class="project-image">
-       <img class="width-100" src="images/project-three.svg" alt="project two">
-      </div>
-      <div class="project-body">
-       <h3>project name goes here</h3>
-       <ul class="display-flex">
-        <li>HTML/CSS</li>
-        <li>Ruby on Rails</li>
-        <li>javaScript</li>
-       </ul>
-       <div class="btn-project-container display-flex">
-        <button type="button">see project <i class="fa-solid fa-arrow-right"></i></button>
-       </div>
-      </div>
-     </div>
-
-     <!-- project four -->
-     <div class="project-one-container width-100">
-      <div class="project-image">
-       <img class="width-100" src="images/project-four.svg" alt="project two">
-      </div>
-      <div class="project-body">
-       <h3>project name goes here</h3>
-       <ul class="display-flex">
-        <li>HTML/CSS</li>
-        <li>Ruby on Rails</li>
-        <li>javaScript</li>
-       </ul>
-       <div class="btn-project-container display-flex">
-        <button type="button">see project <i class="fa-solid fa-arrow-right"></i></button>
-       </div>
-      </div>
-     </div>
-
-     <!-- project-five -->
-     <div class="project-one-container width-100">
-      <div class="project-image">
-       <img class="width-100" src="images/project-five.svg" alt="project two">
-      </div>
-      <div class="project-body">
-       <h3>project name goes here</h3>
-       <ul class="display-flex">
-        <li>HTML/CSS</li>
-        <li>Ruby on Rails</li>
-        <li>javaScript</li>
-       </ul>
-       <div class="btn-project-container display-flex">
-        <button type="button">see project <i class="fa-solid fa-arrow-right"></i></button>
-       </div>
-      </div>
-     </div>
-
-     <!-- project six -->
-
-     <div class="project-one-container width-100">
-      <div class="project-image">
-       <img class="width-100" src="images/project-six.svg" alt="project two">
-      </div>
-      <div class="project-body">
-       <h3>project name goes here</h3>
-       <ul class="display-flex">
-        <li>HTML/CSS</li>
-        <li>Ruby on Rails</li>
-        <li>javaScript</li>
-       </ul>
-       <div class="btn-project-container display-flex">
-        <button type="button">see project <i class="fa-solid fa-arrow-right"></i></button>
-       </div>
-      </div>
-     </div>
-    </div>
-   </div>
-  </section>
-
-  <!-- about section -->
-  <section class="about">
-   <div class="about-section-container">
-
-    <!-- about div -->
-    <div class="about-container">
-     <h2>About</h2>
-     <p>Hello! I am a software developer! I can help you build a product, feature or website. Taka a look of my works.
-      If you like what you see and have a project you need coded, don’t hesitate and contact me.</p>
-     <button class="btn-collaborate width-100" type="submit">Get my CV</button><i class="fa-solid fa-down-to-line"></i>
+    <div class="separator-shape width-100">
+      <img class="hide" src="images/separator-mobile.svg" alt="separator shape mobile">
     </div>
 
-    <!-- languages div -->
-    <div class="languages-container">
-     <h3>Languages</h3>
-     <ul>
-      <li>JavaScript(ES5/ES6)</li>
-      <li>Ruby</li>
-      <li>HTML</li>
-      <li>CSS</li>
-     </ul>
+    <!-- projects section -->
+    <section class="projects-section" id="works">
+      <div class="projects-section-container width-100">
+        <div class="projects-header">
+          <h1>Projects</h1>
+        </div>
+        <div class="all-projects-container width-100">
+
+          <!-- project-one -->
+          <div class="project-one-container width-100 display-flex">
+            <div class="project-image width-100">
+              <img class="project-image width-100" src="images/project-one.svg" alt="project one">
+            </div>
+            <div class="project-body">
+              <h3>project name goes here</h3>
+              <ul class="display-flex">
+                <li>HTML/CSS</li>
+                <li>Ruby on Rails</li>
+                <li>javaScript</li>
+              </ul>
+              <div class="btn-project-container display-flex">
+                <button type="button">see project <i class="fa-solid fa-arrow-right"></i></button>
+              </div>
+            </div>
+          </div>
+
+
+          <!-- project-two -->
+          <div class="project-one-container width-100 hide">
+            <div class="project-image">
+              <img class="width-100" src="images/project-two.svg" alt="project two">
+            </div>
+            <div class="project-body">
+              <h3>project name goes here</h3>
+              <ul class="display-flex">
+                <li>HTML/CSS</li>
+                <li>Ruby on Rails</li>
+                <li>javaScript</li>
+              </ul>
+              <div class="btn-project-container display-flex">
+                <button type="button">see project <i class="fa-solid fa-arrow-right"></i></button>
+              </div>
+            </div>
+          </div>
+
+
+          <!-- project three -->
+          <div class="project-one-container width-100 hide">
+            <div class="project-image">
+              <img class="width-100" src="images/project-three.svg" alt="project two">
+            </div>
+            <div class="project-body">
+              <h3>project name goes here</h3>
+              <ul class="display-flex">
+                <li>HTML/CSS</li>
+                <li>Ruby on Rails</li>
+                <li>javaScript</li>
+              </ul>
+              <div class="btn-project-container display-flex">
+                <button type="button">see project <i class="fa-solid fa-arrow-right"></i></button>
+              </div>
+            </div>
+          </div>
+
+          <!-- project four -->
+          <div class="project-one-container width-100 hide">
+            <div class="project-image">
+              <img class="width-100" src="images/project-four.svg" alt="project two">
+            </div>
+            <div class="project-body">
+              <h3>project name goes here</h3>
+              <ul class="display-flex">
+                <li>HTML/CSS</li>
+                <li>Ruby on Rails</li>
+                <li>javaScript</li>
+              </ul>
+              <div class="btn-project-container display-flex">
+                <button type="button">see project <i class="fa-solid fa-arrow-right"></i></button>
+              </div>
+            </div>
+          </div>
+
+          <!-- project-five -->
+          <div class="project-one-container width-100 hide">
+            <div class="project-image">
+              <img class="width-100" src="images/project-five.svg" alt="project two">
+            </div>
+            <div class="project-body">
+              <h3>project name goes here</h3>
+              <ul class="display-flex">
+                <li>HTML/CSS</li>
+                <li>Ruby on Rails</li>
+                <li>javaScript</li>
+              </ul>
+              <div class="btn-project-container display-flex">
+                <button type="button">see project <i class="fa-solid fa-arrow-right"></i></button>
+              </div>
+            </div>
+          </div>
+
+          <!-- project six -->
+
+          <div class="project-one-container width-100 hide">
+            <div class="project-image">
+              <img class="width-100" src="images/project-six.svg" alt="project two">
+            </div>
+            <div class="project-body">
+              <h3>project name goes here</h3>
+              <ul class="display-flex">
+                <li>HTML/CSS</li>
+                <li>Ruby on Rails</li>
+                <li>javaScript</li>
+              </ul>
+              <div class="btn-project-container display-flex">
+                <button type="button">see project <i class="fa-solid fa-arrow-right"></i></button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- desktop shapes -->
+      <div class="desktop-shapes">
+        <div class="grp-one-container width-100">
+          <img class="win1 hide-in-mobile show width-100" src="images/project-two.svg" alt="project two">
+          <img class="win2 hide-in-mobile show" src="images/shapes-project-one.svg" alt="shape">
+          <div class="deskproj hide-in-mobile show">
+            <img class="win3 hide-in-mobile show width-100" src="images/project-six.svg" alt="project three">
+            <div class="project-body-desk">
+              <h3>project name goes here</h3>
+              <ul class="display-flex">
+                <li>HTML/CSS</li>
+                <li>Ruby on Rails</li>
+                <li>+1</li>
+              </ul>
+              <div class="btn-project-container-desk display-flex">
+                <button type="button">see project <i class="fa-solid fa-arrow-right"></i></button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="grp-two-container width-100">
+
+          <img class="win4 hide-in-mobile show" src="images/project-three.svg" alt="shape">
+          <img class="win6 hide-in-mobile show" src="images/shapes-project-two.svg" alt="shape">
+          <img class="win5 hide-in-mobile show width-100" src="images/project-five.svg" alt="project four">
+
+        </div>
+        <div class="grp-three-container width-100">
+          <img class="win8 hide-in-mobile show" src="images/shape-project31.svg" alt="shape">
+          <img class="win7 hide-in-mobile show" src="images/shape-project3.svg" alt="project five">
+          <img class="win9 hide-in-mobile show" src="images/project-four.svg" alt="project six">
+        </div>
+      </div>
+      <!-- end desktop shapes -->
+
+    </section>
+
+    <!-- about section -->
+    <section class="about" id="about-me">
+      <div class="about-section-container width-100">
+
+        <!-- about div -->
+        <div class="about-container">
+          <h2>About</h2>
+          <p>Hello! I am a software developer! I can help you build a product, feature or website. Taka a look of my
+            works.
+            If you like what you see and have a project you need coded, don’t hesitate and contact me.</p>
+          <button class="btn-collaborate width-100" type="submit">Get my CV</button>
+        </div>
+
+        <div class="desktop-container width-100">
+          <!-- languages div -->
+          <div class="languages-container">
+            <h3>Languages</h3>
+            <ul>
+              <li>JavaScript(ES5/ES6)</li>
+              <li>Ruby</li>
+              <li>HTML</li>
+              <li>CSS</li>
+            </ul>
+          </div>
+
+          <!-- Frameworks div -->
+          <div class="frameworks-container">
+            <h3>Frameworks</h3>
+            <ul>
+              <li>Bootstrap</li>
+              <li>Ruby on rails</li>
+              <li>RSpec</li>
+              <li>Capibara</li>
+              <li>Selinium</li>
+            </ul>
+          </div>
+
+
+          <!-- skills div -->
+          <div class="skills-container">
+            <h3>skills</h3>
+            <ul>
+              <li>Codekit</li>
+              <li>Codepen</li>
+              <li>GitHub</li>
+              <li>GitLab</li>
+              <li>Terminal</li>
+            </ul>
+          </div>
+
+          <div class="background"></div>
+        </div>
+      </div>
+    </section>
+
+
+    <!-- contact form -->
+    <section class="form-section" id="contact">
+      <div class="form-container">
+        <h2>Get started</h2>
+        <p>Hello! I am a software developer! I can help you build a product, feature or website. Taka a look of my
+          works.
+          If you like what you see and have a project you need coded, don’t hesitate and contact me.</p>
+        <form action="https://formspree.io/f/xlezbalb" method="post">
+          <input type="text" name="name" placeholder="Your name" required>
+          <input type="email" name="email" placeholder="Your email" required>
+          <textarea name="message" placeholder="Write your message here" maxlength="500" required></textarea>
+          <div class="btn">
+            <button type="submit">start collaboration</button>
+          </div>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <!-- footer -->
+  <footer>
+    <div class="footer-container">
+      <a href="#">Get my Resume <i class="fa-solid fa-arrow-down-wide-short"></i></a>
     </div>
-
-    <!-- Frameworks div -->
-    <div class="frameworks-container">
-     <h3>Frameworks</h3>
-     <ul>
-      <li>Bootstrap</li>
-      <li>Ruby on rails</li>
-      <li>RSpec</li>
-      <li>Capibara</li>
-      <li>Selinium</li>
-     </ul>
-    </div>
-
-
-    <!-- skills div -->
-    <div class="skills-container">
-     <h3>skills</h3>
-     <ul>
-      <li>Codekit</li>
-      <li>Codepen</li>
-      <li>GitHub</li>
-      <li>GitLab</li>
-      <li>Terminal</li>
-     </ul>
-    </div>
-
-
-   </div>
-  </section>
-
-
- </main>
- <footer></footer>
+    <nav class="footer-desk">
+      <ul class="display-flex width-100">
+        <li>
+          <a href="https://stackoverflow.com/users/13940230/tah%c3%a9nyy-belguith"><img src="images/stackoverflow.svg"
+              alt="stackoverflow pic" /></a>
+        </li>
+        <li>
+          <a href="https://github.com/TahenyBELGUITH"><img src="images/github.svg" alt="github pic" /></a>
+        </li>
+        <li>
+          <a href="https://twitter.com/BelguithTaheny"><img src="images/twiter.svg" alt="twitter pic" /></a>
+        </li>
+        <li>
+          <a href="https://www.linkedin.com/in/belguith-taheny-47b93a162/"><img src="images/linkedin.svg"
+              alt="linkedin pic" /></a>
+        </li>
+        <li>
+          <a href="mailto:taheny.belguith@gmail.com"><img src="images/mail.svg" alt="mail pic" /></a>
+        </li>
+        <li>
+          <a href="https://angel.co/u/taheny-belguith"><img src="images/angelist.svg" alt="angellist pic" /></a>
+        </li>
+      </ul>
+    </nav>
+  </footer>
 </body>
 
 </html>
