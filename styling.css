@@ -518,7 +518,7 @@ footer a {
 
   @keyframes left-right {
     from {
-      transform: translateX(-50%);
+      transform: translateX(-55%);
     }
 
     to {
