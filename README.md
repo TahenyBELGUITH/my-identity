@@ -34,14 +34,19 @@
 
 ### 👩 Taheny BELGUITH
 
-- GitHub: @TahenyBELGUITH
-- Twitter: @BelguithTaheny
-- LinkedIn: belguith taheny
+- GitHub: [@TahenyBELGUITH](https://github.com/TahenyBELGUITH)
+- Twitter: [@BelguithTaheny](https://twitter.com/BelguithTaheny)
 
-## 👩 Collaborator:
+## Collaborators:
 - GitHub: [@githubhandle](https://github.com/edubew)
 - Twitter: [@twitterhandle](https://twitter.com/@edube_winne)
 - LinkedIn: [LinkedIn](https://linkedin.com/in/winfred-edube-9820a422a/)
+
+
+- GitHub: [@sabetech](https://github.com/sabetech)
+- Twitter: [@al_kfx](https://twitter.com/al_kfx)
+- LinkedIn: [Albert Mensah-Ansah](https://linkedin.com/in/albertkma)
+
 
 ### 🤝 Contributing
 
