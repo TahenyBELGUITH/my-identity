@@ -109,7 +109,8 @@ body {
   flex-direction: column;
 }
 
-.project-body h3 {
+.project-body h3,
+.project-body h2 {
   color: #fff;
   font-weight: 300;
   font-size: 20px;
