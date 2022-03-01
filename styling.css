@@ -590,6 +590,18 @@ footer a {
     cursor: pointer;
   }
 
+  .btn-project-container button {
+    font-size: 20px;
+    width: 40%;
+    cursor: pointer;
+  }
+
+  .btn-project-container-desk button:hover {
+    background-color: #fff;
+    border: 1px solid white;
+    color: #1a2236;
+  }
+
   .projects-header {
     padding: 0;
     width: 20%;
@@ -625,12 +637,6 @@ footer a {
 
   .project-body h3 {
     font-size: 20px;
-  }
-
-  .btn-project-container button {
-    font-size: 20px;
-    width: 40%;
-    cursor: pointer;
   }
 
   .desktop-shapes {
@@ -762,6 +768,12 @@ footer a {
   .btn {
     display: flex;
     justify-content: center;
+  }
+
+  input::placeholder {
+    font-size: 14px;
+    top: -9px;
+    left: 12px;
   }
 
   footer {
