@@ -3,7 +3,7 @@
 > This is my portfolio using Figma Template
 
 <p align="center">
-  <img src="images/desktop.PNG/">
+  <img src="images/accessibility.PNG/">
 </p>
 
 ## Built with
