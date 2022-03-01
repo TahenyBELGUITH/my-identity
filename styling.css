@@ -76,6 +76,7 @@ body {
   color: #1a2236;
   background-color: white;
   border: 2px solid #1a2236;
+  transition: 0.3s ease-in-out;
 }
 
 .separator-shape img {
@@ -735,9 +736,7 @@ footer a {
 
   .form-container {
     background-color: #f9f9fa;
-    background-image:
-      url("images/formtop.svg"),
-      url("images/formbuttom.svg");
+    background-image: url("images/formtop.svg"), url("images/formbuttom.svg");
     background-repeat: no-repeat;
     background-position: 0 0, 100% 100%;
     background-size: 20%;
