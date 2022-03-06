@@ -352,7 +352,11 @@ footer a {
 /* menu button */
 .humb-container {
   height: 100vh;
-  position: absolute;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
   z-index: 10;
   background-color: #fff;
   background-image:
@@ -367,12 +371,14 @@ footer a {
 
 .humb-container ul {
   list-style: none;
-  margin: 15% 40%;
   padding: 10% 0;
   width: 40%;
+  text-align: center;
+  margin: 25% auto;
 }
 
 .humb-container ul li a {
+  justify-items: center;
   text-decoration: none;
   color: #1a2236;
   font-size: 15px;
