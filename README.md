@@ -3,8 +3,9 @@
 > This is my portfolio using Figma Template
 
 <p align="center">
-  <img src="images/screenshot.PNG/">
+  <img src="images/screenshot.png"/>
 </p>
+
 
 ## Built with
 
