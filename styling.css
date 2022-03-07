@@ -663,12 +663,6 @@ footer a {
   .project-body {
     margin-top: -190px;
     height: 100%;
-    animation: mymove 5s infinite;
-  }
-
-  @keyframes mymove {
-    from { bottom: 0; }
-    to { top: 80px; }
   }
 
   .project-body h3 {
@@ -705,9 +699,9 @@ footer a {
   }
 
   .win6 {
-    width: 83%;
+    width: 78%;
     position: relative;
-    left: 62%;
+    left: 57%;
     align-self: flex-end;
   }
 
@@ -765,11 +759,11 @@ footer a {
   }
 
   .body-win-4 {
-    width: 100%;
+    width: 157%;
   }
 
   .project-body-win4 {
-    width: 160%;
+    width: 100%;
   }
 
   .languages-container,
