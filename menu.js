@@ -1,27 +1,26 @@
 // menu btn js
-let menuBtn= document.querySelector('#humb-btn');
-let closeBtn= document.querySelector('#close');
-let menuList =document.querySelector('.menu-list');
-let menuItem =document.querySelectorAll('.menu-items');//output : array 
-let container = document.querySelector('.humb-container');
+const menuBtn = document.querySelector('#humb-btn');
+const closeBtn = document.querySelector('#close');
+const menuItem = document.querySelectorAll('.menu-items');// output : array
+const container = document.querySelector('.humb-container');
 
 // fonction open the nav
-function openNav(){
+function openNav() {
   container.classList.remove('display-none');
 }
 
-// fonction close the nav 
-function closeNav(){
- container.classList.add('display-none');
+// fonction close the nav
+function closeNav() {
+  container.classList.add('display-none');
 }
 
- // open the navbar
+// open the navbar
 menuBtn.addEventListener('click', openNav);
 
-//close the container when the items are selected
-menuItem.forEach((element) =>{
- element.addEventListener('click',closeNav)
-})
+// close the container when the items are selected
+menuItem.forEach((element) => {
+  element.addEventListener('click', closeNav);
+});
 
 // close the navbar
 closeBtn.addEventListener('click', closeNav);
