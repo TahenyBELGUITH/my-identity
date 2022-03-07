@@ -357,7 +357,7 @@ footer a {
   bottom: 0;
   left: 0;
   right: 0;
-  z-index: 10;
+  z-index: 100;
   background-color: #fff;
   background-image:
     url("images/menu-btn-shape-1.svg"),

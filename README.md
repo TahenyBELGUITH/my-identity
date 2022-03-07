@@ -3,7 +3,7 @@
 > This is my portfolio using Figma Template
 
 <p align="center">
-  <img src="images/accessibility.PNG/">
+  <img src="images/menu-icon.PNG/">
 </p>
 
 ## Built with
@@ -13,7 +13,7 @@
 
 ## Live demo
 
-[My portfolio](https://tahenybelguith.github.io/my-identity/) 
+[My portfolio](https://tahenybelguith.github.io/my-identity/github.io/my-identity/) 
 
 ## Getting Started
 
