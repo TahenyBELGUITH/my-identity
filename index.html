@@ -24,7 +24,7 @@
   <header>
     <div class="header-container width-100 display-flex">
       <img class="hide" src="images/header-mobile.svg" alt="mobile header">
-      <img class="hide menu-icon" src="images/menu-icon-mobile.svg" alt="menu icon">
+      <img id="humb-btn" class="hide menu-icon" src="images/menu-icon-mobile.svg" alt="menu icon">
       <nav class="display-flex hide-in-mobile show">
         <ul class=" display-flex">
           <li><a href="#intro">Hello</a></li>
@@ -33,6 +33,15 @@
           <li><a href="#contact">Contact</a></li>
         </ul>
       </nav>
+      <div class="humb-container hide display-none">
+        <img id="close" src="./images/menu-btn-shape-close.svg" alt="close btn">
+        <ul class="menu-list">
+          <li class="menu-items"><a href="#intro">Hello</a></li>
+          <li class="menu-items"><a href=" #works">Porfolio</a></li>
+          <li class="menu-items"><a href=" #about-me">About</a></li>
+          <li class="menu-items"><a href=" #contact">Contact</a></li>
+        </ul>
+      </div>
     </div>
   </header>
   <main>
@@ -323,6 +332,8 @@
       </ul>
     </nav>
   </footer>
+  <script src="modals.js"></script>
+  <script src="menu.js"></script>
 </body>
 
 </html>

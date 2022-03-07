@@ -350,6 +350,52 @@ footer a {
   display: none;
 }
 
+/* menu button */
+.humb-container {
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 100;
+  background-color: #fff;
+  background-image:
+    url("images/menu-btn-shape-1.svg"),
+    url("./images/menu-btn-shape-dots.svg"),
+    url("./images/menu-btn-shape-dots.svg"),
+    url("./images/menu-btn-shape-2.svg");
+  width: 100vw;
+  background-repeat: no-repeat;
+  background-position: 0 0, 70% 20%, 20% 70%, 100% 100%;
+}
+
+.humb-container ul {
+  list-style: none;
+  padding: 10% 0;
+  width: 40%;
+  text-align: center;
+  margin: 25% auto;
+}
+
+.humb-container ul li a {
+  justify-items: center;
+  text-decoration: none;
+  color: #1a2236;
+  font-size: 15px;
+  line-height: 38px;
+  text-align: center;
+}
+
+#close {
+  float: right;
+  padding: 20px;
+}
+
+.display-none {
+  display: none;
+}
+
 /* tablets */
 @media only screen and (min-width: 600px) {
   .hide-in-mobile {
