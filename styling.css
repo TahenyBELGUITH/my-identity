@@ -663,23 +663,12 @@ footer a {
   .project-body {
     margin-top: -190px;
     height: 100%;
-    animation-name: mymove;
-    animation-duration: 3s;
-  }
-
-  .project-body:not(:hover, :focus, :active, :focus-visible, :focus-within) {
-    visibility: hidden;
-    animation: mymove 0.5s;
+    animation: mymove 5s infinite;
   }
 
   @keyframes mymove {
-    from {
-      bottom: -200px;
-    }
-
-    to {
-      bottom: 0;
-    }
+    from { bottom: 0; }
+    to { top: 80px; }
   }
 
   .project-body h3 {
@@ -731,9 +720,8 @@ footer a {
   }
 
   .win9 {
-    width: 130%;
+    width: 100%;
     position: relative;
-    left: -74%;
   }
 
   .about-section-container {
@@ -764,6 +752,24 @@ footer a {
     grid-template-rows: 1fr 1fr;
     height: auto;
     position: relative;
+  }
+
+  .body-win-9 {
+    width: 100%;
+    position: relative;
+    left: -74%;
+  }
+
+  .project-body-win9 {
+    width: 100%;
+  }
+
+  .body-win-4 {
+    width: 100%;
+  }
+
+  .project-body-win4 {
+    width: 160%;
   }
 
   .languages-container,
