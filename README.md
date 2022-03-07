@@ -14,7 +14,7 @@
 
 ## Live demo
 
-[My portfolio](https://tahenybelguith.github.io/my-identity/github.io/my-identity/) 
+[My portfolio](https://tahenybelguith.github.io/my-identity/) 
 
 ## Getting Started
 
