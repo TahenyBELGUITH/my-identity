@@ -60,21 +60,21 @@ const data = [{
 const container=document.querySelector('.popup-container');
 const seeProjectBtns = document.querySelectorAll('#see-btn') //output:array
 //create dynamic fonction : createModel()
-function createModel()
+function createModel({name , tags , img ,description , live , source},index)
 {
  const div=document.createElement('div')
  div.id='popup';
  div.innerHTML=`
-            <h1>project name goes here</h1>
-              <ul class="display-flex">
+            <h1>${name}</h1>
+              <ul>
                 <li>HTML/CSS</li>
                 <li>Ruby on Rails</li>
                 <li>javaScript</li>
               </ul>
-            <img src="images/project-four.svg" alt="project three">
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi.</p>
-                <button type="button">see Live <i class="fa-solid fa-arrow-trend-up"></i></button>
-                <button type="button">see source <i class="fa-brands fa-github"></i></button>`
+            <img src="${img}" alt="project three">
+            <p>${description}</p>
+                <button type="button"><a href="${live}">see Live </a><i class="fa-solid fa-arrow-trend-up"></i></button>
+                <button type="button"><a href="${source}">see source </a><i class="fa-brands fa-github"></i></button>`
          container.appendChild(div);     
 }
 
@@ -82,10 +82,20 @@ function openPopUp()
 {
  container.classList.remove('display-none');
 }
+
+function closePopUp()
+{
+ container.classList.add('display-none');
+}
 //tag all btns
 for(let i=0 ; i<=seeProjectBtns.length;i++){
  seeProjectBtns[i].addEventListener('click', ()=>{
-  openPopUp();
-  createModel();
+   data.forEach((element) =>{
+     openPopUp();
+     createModel(element,i);
+   });
  })
 }
+
+//tag close btn
+ closeBtn.addEventListener('click',closePopUp);

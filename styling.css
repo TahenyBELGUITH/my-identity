@@ -395,6 +395,7 @@ footer a {
   display: none;
 }
 
+/* popup styling */
 #popup {
   display: flex;
   flex-direction: column;
@@ -406,9 +407,9 @@ footer a {
   bottom: 0;
   left: 0;
   right: 0;
-  z-index: 100;
   overflow: scroll;
   width: 100%;
+  z-index: 200;
 }
 
 #popup h1 {
@@ -427,14 +428,14 @@ footer a {
 #popup li {
   border: 1px solid #febf52;
   color: #1a2236;
-  font-size: 8px;
+  font-size: 10px;
   padding: 5px;
   margin: 10px 10px 10px 0;
 }
 
 #popup p {
   font-family: 'Poppins', sans-serif;
-  font-size: 18px;
+  font-size: 14px;
   line-height: 27px;
   color: #1a2236;
   margin: 20px 0;
@@ -452,6 +453,16 @@ footer a {
 #popup button:hover {
   color: #fff;
   background-color: #1a2236;
+}
+
+.close-popup {
+  position: relative;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  border: 3px solid red;
+  width: 3%;
 }
 
 /* tablets */
@@ -884,5 +895,33 @@ footer a {
 
   footer .footer-desk ul {
     margin: 0;
+  }
+
+  #popup {
+    z-index: 200;
+  }
+
+  #popup h1 {
+    font-size: 40px;
+    margin-bottom: 20px;
+  }
+
+  #popup li {
+    font-size: 20px;
+    padding: 20px;
+  }
+
+  #popup p {
+    font-size: 28px;
+    line-height: 49px;
+    width: 60%;
+    margin: 7% auto;
+  }
+
+  #popup button {
+    padding: 20px;
+    font-size: 32px;
+    margin: 12px auto;
+    width: 50%;
   }
 }
