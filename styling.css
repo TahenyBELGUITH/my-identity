@@ -421,6 +421,8 @@ footer a {
 }
 
 #popup ul {
+  display: flex;
+  flex-direction: row;
   list-style: none;
   padding: 0;
 }
@@ -428,7 +430,7 @@ footer a {
 #popup li {
   border: 1px solid #febf52;
   color: #1a2236;
-  font-size: 10px;
+  font-size: 9px;
   padding: 5px;
   margin: 10px 10px 10px 0;
 }
@@ -441,6 +443,10 @@ footer a {
   margin: 20px 0;
 }
 
+#popup img {
+  box-shadow: 5px 5px rgba(22, 1, 27, 0.7);
+}
+
 #popup button {
   padding: 10px;
   background-color: #fff;
@@ -451,6 +457,16 @@ footer a {
 }
 
 #popup button:hover {
+  color: #fff;
+  background-color: #1a2236;
+}
+
+#popup a {
+  text-decoration: none;
+  color: #1a2236;
+}
+
+#popup a:hover {
   color: #fff;
   background-color: #1a2236;
 }
@@ -749,7 +765,7 @@ footer a {
   }
 
   .win4 {
-    width: 160%;
+    width: 100%;
   }
 
   .win5 {
