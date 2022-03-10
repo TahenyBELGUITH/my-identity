@@ -232,8 +232,8 @@ function openPopUp(index) {
         </ul>
         <img src="${data[index].img}" class="project-image" alt="project image">
         <p>${data[index].description}</p>
-        <button type="button"><a href="${data[index].live}">see Live </a><i class="fa-solid fa-arrow-trend-up"></i></button>
-        <button type="button"><a href="${data[index].source}">see source</a><i class="fa-brands fa-github"></i></button>`;
+        <button type="button"><a href="${data[index].live}">see live </a><i class="fa-solid fa-arrow-trend-up"></i></button>
+        <button type="button"><a href="${data[index].source}">see source </a><i class="fa-brands fa-github"></i></button>`;
   popupContainer.appendChild(div);
   popupContainer.classList.remove('display-none');
 }
