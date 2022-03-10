@@ -221,9 +221,9 @@ const popupContainer = document.querySelector('.popup-container');
 const seeProjectBtns = document.querySelectorAll('.see-btn'); // output:array
 
 function openPopUp(index) {
-    const div = document.createElement('div');
-        div.className = 'popup';
-        div.innerHTML = `
+  const div = document.createElement('div');
+  div.className = 'popup';
+  div.innerHTML = `
         <h1>${data[index].name}</h1>
         <ul>
         <li>${data[index].tags[0]}</li>
@@ -234,19 +234,19 @@ function openPopUp(index) {
         <p>${data[index].description}</p>
         <button type="button"><a href="${data[index].live}">see Live </a><i class="fa-solid fa-arrow-trend-up"></i></button>
         <button type="button"><a href="${data[index].source}">see source</a><i class="fa-brands fa-github"></i></button>`;
-        popupContainer.appendChild(div);
-        popupContainer.classList.remove('display-none');
+  popupContainer.appendChild(div);
+  popupContainer.classList.remove('display-none');
 }
- 
- seeProjectBtns.forEach((btn,index) => {
-  btn.addEventListener('click',() => {
-   openPopUp(index);
-  }); 
- });
+
+seeProjectBtns.forEach((btn, index) => {
+  btn.addEventListener('click', () => {
+    openPopUp(index);
+  });
+});
 
 function closePopUp() {
   popupContainer.classList.add('display-none');
 }
 
-const closeBtn = document.querySelector('.close-popup');
-closeBtn.addEventListener('click', closePopUp);
+const closeBtnpop = document.querySelector('.close-popup');
+closeBtnpop.addEventListener('click', closePopUp);

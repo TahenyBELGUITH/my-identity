@@ -98,10 +98,6 @@ body {
   flex-direction: column;
 }
 
-.project-image {
-  margin: 5px;
-}
-
 .project-body {
   background-color: #1a2236;
   padding: 30px;
@@ -135,6 +131,13 @@ footer nav ul li {
   margin: 20px 0;
   width: 85%;
   position: relative;
+}
+
+.popup li {
+  font-size: 10px;
+  padding: 5px;
+  margin: 20px 12px 20px 0;
+  border: 2px solid #1a2236;
 }
 
 .project-body ul li {
@@ -171,6 +174,15 @@ form button {
   background-color: #1a2236;
   border: 1px solid #fff;
   cursor: pointer;
+}
+
+.popup button {
+  padding: 10px;
+  background-color: #fff;
+  border: 1px solid #1a2236;
+  color: #1a2236;
+  font-size: 22px;
+  margin-bottom: 20px;
 }
 
 form button:hover {
@@ -377,6 +389,11 @@ footer a {
   margin: 25% auto;
 }
 
+.popup a {
+  text-decoration: none;
+  color: #1a2236;
+}
+
 .humb-container ul li a {
   justify-items: center;
   text-decoration: none;
@@ -426,14 +443,6 @@ footer a {
   padding: 0;
 }
 
-.popup li {
-  border: 1px solid #febf52;
-  color: #1a2236;
-  font-size: 9px;
-  padding: 5px;
-  margin: 10px 10px 10px 0;
-}
-
 .popup p {
   font-family: 'Poppins', sans-serif;
   font-size: 14px;
@@ -446,23 +455,9 @@ footer a {
   box-shadow: 5px 5px rgba(22, 1, 27, 0.7);
 }
 
-.popup button {
-  padding: 10px;
-  background-color: #fff;
-  border: 1px solid #1a2236;
-  color: #1a2236;
-  font-size: 22px;
-  margin-bottom: 20px;
-}
-
 .popup button:hover {
   color: #fff;
   background-color: #1a2236;
-}
-
-.popup a {
-  text-decoration: none;
-  color: #1a2236;
 }
 
 .popup a:hover {
@@ -592,6 +587,13 @@ footer a {
     width: 75%;
   }
 
+  .popup li {
+    color: #1a2236;
+    font-size: 19px;
+    padding: 5px;
+    margin: 20px 10px 20px 0;
+  }
+
   .project-body ul li {
     font-size: 15px;
     text-align: center;
@@ -606,7 +608,7 @@ footer a {
   .project-body-desk ul li {
     background-color: #98dede;
     margin-right: 12px;
-    font-size: 12px;
+    font-size: 16px;
     padding: 10px;
   }
 
@@ -666,7 +668,7 @@ footer a {
   }
 
   .btn-collaborate {
-    font-size: 18px;
+    font-size: 23px;
     width: 66%;
     padding: 15px;
   }
@@ -708,12 +710,20 @@ footer a {
     padding: 13px;
     margin: 11px 0 14px 20px;
     cursor: pointer;
+    font-size: 20px;
   }
 
   .btn-project-container button {
     font-size: 20px;
     width: 40%;
     cursor: pointer;
+  }
+
+  .popup button {
+    padding: 20px;
+    font-size: 32px;
+    margin: 12px auto;
+    width: 50%;
   }
 
   .btn-project-container-desk button:hover {
@@ -933,22 +943,10 @@ footer a {
     margin-bottom: 20px;
   }
 
-  .popup li {
-    font-size: 20px;
-    padding: 20px;
-  }
-
   .popup p {
     font-size: 28px;
     line-height: 49px;
     width: 60%;
     margin: 7% auto;
-  }
-
-  .popup button {
-    padding: 20px;
-    font-size: 32px;
-    margin: 12px auto;
-    width: 50%;
   }
 }
