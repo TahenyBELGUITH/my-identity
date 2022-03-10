@@ -1,71 +1,71 @@
 // create array of my all objects
 window.onload = () => {
-const data = [{
-  id: 'project-one',
-  name: 'project name goes here',
-  tags: ['html/css', 'Ruby on Rails', 'javaScript'],
-  img: 'images/project-one.svg',
-  description:
+  const data = [{
+    id: 'project-one',
+    name: 'project name goes here',
+    tags: ['html/css', 'Ruby on Rails', 'javaScript'],
+    img: 'images/project-one.svg',
+    description:
       'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled is simply ',
-  live: 'https://tahenybelguith.github.io/my-identity/',
-  source: 'https://github.com/TahenyBELGUITH/my-identity',
-},
-{
-  id: 'project-two',
-  name: 'project name goes here',
-  tags: ['html/css', 'Ruby on Rails', 'javaScript'],
-  img: 'images/project-two.svg',
-  description:
+    live: 'https://tahenybelguith.github.io/my-identity/',
+    source: 'https://github.com/TahenyBELGUITH/my-identity',
+  },
+  {
+    id: 'project-two',
+    name: 'project name goes here',
+    tags: ['html/css', 'Ruby on Rails', 'javaScript'],
+    img: 'images/project-two.svg',
+    description:
       'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled is simply ',
-  live: 'https://tahenybelguith.github.io/my-identity/',
-  source: 'https://github.com/TahenyBELGUITH/my-identity',
-},
-{
-  id: 'project-three',
-  name: 'project name goes here',
-  tags: ['html/css', 'Ruby on Rails', 'javaScript'],
-  img: './images/project-six.svg',
-  description:
+    live: 'https://tahenybelguith.github.io/my-identity/',
+    source: 'https://github.com/TahenyBELGUITH/my-identity',
+  },
+  {
+    id: 'project-three',
+    name: 'project name goes here',
+    tags: ['html/css', 'Ruby on Rails', 'javaScript'],
+    img: './images/project-six.svg',
+    description:
       'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled is simply ',
-  live: 'https://tahenybelguith.github.io/my-identity/',
-  source: 'https://github.com/TahenyBELGUITH/my-identity',
-},
-{
-  id: 'project-four',
-  name: 'project name goes here',
-  tags: ['html/css', 'Ruby on Rails', 'javaScript'],
-  img: './images/project-three.svg',
-  description:
+    live: 'https://tahenybelguith.github.io/my-identity/',
+    source: 'https://github.com/TahenyBELGUITH/my-identity',
+  },
+  {
+    id: 'project-four',
+    name: 'project name goes here',
+    tags: ['html/css', 'Ruby on Rails', 'javaScript'],
+    img: './images/project-three.svg',
+    description:
       'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled is simply ',
-  live: 'https://tahenybelguith.github.io/my-identity/',
-  source: 'https://github.com/TahenyBELGUITH/my-identity',
-},
-{
-  id: 'project-five',
-  name: 'project name goes here',
-  tags: ['html/css', 'Ruby on Rails', 'javaScript'],
-  img: './images/project-five.svg',
-  description:
+    live: 'https://tahenybelguith.github.io/my-identity/',
+    source: 'https://github.com/TahenyBELGUITH/my-identity',
+  },
+  {
+    id: 'project-five',
+    name: 'project name goes here',
+    tags: ['html/css', 'Ruby on Rails', 'javaScript'],
+    img: './images/project-five.svg',
+    description:
       'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled is simply ',
-  live: 'https://tahenybelguith.github.io/my-identity/',
-  source: 'https://github.com/TahenyBELGUITH/my-identity',
-},
-{
-  id: 'project-six',
-  name: 'project name goes here',
-  tags: ['html/css', 'Ruby on Rails', 'javaScript'],
-  img: './images/project-four.svg',
-  description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled is simply ',
-  live: 'https://tahenybelguith.github.io/my-identity/',
-  source: 'https://github.com/TahenyBELGUITH/my-identity',
-},
-];
+    live: 'https://tahenybelguith.github.io/my-identity/',
+    source: 'https://github.com/TahenyBELGUITH/my-identity',
+  },
+  {
+    id: 'project-six',
+    name: 'project name goes here',
+    tags: ['html/css', 'Ruby on Rails', 'javaScript'],
+    img: './images/project-four.svg',
+    description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled is simply ',
+    live: 'https://tahenybelguith.github.io/my-identity/',
+    source: 'https://github.com/TahenyBELGUITH/my-identity',
+  },
+  ];
 
-// create the portfolio section for mobile and desktop
-const portfolio = document.querySelector('.portfolio');
-  portfolio.innerHTML = ""
-  for(let i=0 ; i<6 ; i+=1){
-  portfolio.innerHTML += `
+  // create the portfolio section for mobile and desktop
+  const portfolio = document.querySelector('.portfolio');
+  portfolio.innerHTML = '';
+  for (let i = 0; i < 6; i += 1) {
+    portfolio.innerHTML += `
     <section class="projects-section hide" id="works">
       <div class="projects-section-container width-100">
         <div class="projects-header hide-in-mobile ${data[i].id}">
@@ -94,12 +94,12 @@ const portfolio = document.querySelector('.portfolio');
       </div>
     </section>
 `;
-};
+  }
 
-document.querySelector('.project-one').classList.remove('hide-in-mobile');
+  document.querySelector('.project-one').classList.remove('hide-in-mobile');
 
-const desktop = document.querySelector('.portfolio-2');
-desktop.innerHTML = `
+  const desktop = document.querySelector('.portfolio-2');
+  desktop.innerHTML = `
 <div class= "project-part-one">
       <h1 class="hide-in-mobile show header-part-one" >Projects</h1>
       <img class="hide-in-mobile show" src="images/desktopdots.svg">
@@ -216,15 +216,15 @@ desktop.innerHTML = `
       </div>
       <!-- end desktop shapes -->`;
 
-// the popup modals
+  // the popup modals
 
-const popupContainer = document.querySelector('.popup-container');
-const seeProjectBtns = document.querySelectorAll('.see-btn'); // output:array
-const desktopBtn = document.querySelectorAll('.desktop-btn'); //output:array
-function openPopUp(index) {
-  const div = document.createElement('div');
-  div.className = 'popup';
-  div.innerHTML = `
+  const popupContainer = document.querySelector('.popup-container');
+  const seeProjectBtns = document.querySelectorAll('.see-btn'); // output:array
+  const desktopBtn = document.querySelectorAll('.desktop-btn'); // output:array
+  function openPopUp(index) {
+    const div = document.createElement('div');
+    div.className = 'popup';
+    div.innerHTML = `
         <h1>${data[index].name}</h1>
         <ul>
         <li>${data[index].tags[0]}</li>
@@ -235,29 +235,26 @@ function openPopUp(index) {
         <p>${data[index].description}</p>
         <button type="button"><a href="${data[index].live}">see live </a><i class="fa-solid fa-arrow-trend-up"></i></button>
         <button type="button"><a href="${data[index].source}">see source </a><i class="fa-brands fa-github"></i></button>`;
-  popupContainer.appendChild(div);
-  popupContainer.classList.remove('display-none');
-}
+    popupContainer.appendChild(div);
+    popupContainer.classList.remove('display-none');
+  }
 
-seeProjectBtns.forEach((btn, index) => {
-  btn.addEventListener('click', () => {
-    openPopUp(index);
+  seeProjectBtns.forEach((btn, index) => {
+    btn.addEventListener('click', () => {
+      openPopUp(index);
+    });
   });
-});
 
-
-
-desktopBtn.forEach((btn, index) => {
-  btn.addEventListener('click', () => {
-    openPopUp(index);
+  desktopBtn.forEach((btn, index) => {
+    btn.addEventListener('click', () => {
+      openPopUp(index);
+    });
   });
-});
 
+  function closePopUp() {
+    popupContainer.classList.add('display-none');
+  }
 
-function closePopUp() {
-  popupContainer.classList.add('display-none');
-}
-
-const closeBtnpop = document.querySelector('.close-popup');
-closeBtnpop.addEventListener('click', closePopUp);
-}
+  const closeBtnpop = document.querySelector('.close-popup');
+  closeBtnpop.addEventListener('click', closePopUp);
+};
