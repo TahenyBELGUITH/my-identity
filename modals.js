@@ -1,5 +1,5 @@
 // create array of my all objects
-
+window.onload = () => {
 const data = [{
   id: 'project-one',
   name: 'project name goes here',
@@ -63,11 +63,12 @@ const data = [{
 
 // create the portfolio section for mobile and desktop
 const portfolio = document.querySelector('.portfolio');
-Array.from(portfolio.children).forEach((element, index) => {
-  element.innerHTML = `
+  portfolio.innerHTML = ""
+  for(let i=0 ; i<6 ; i+=1){
+  portfolio.innerHTML += `
     <section class="projects-section hide" id="works">
       <div class="projects-section-container width-100">
-        <div class="projects-header hide-in-mobile ${data[index].id}">
+        <div class="projects-header hide-in-mobile ${data[i].id}">
           <h1>Projects</h1>
         </div>
         <div class="all-projects-container width-100">
@@ -75,14 +76,14 @@ Array.from(portfolio.children).forEach((element, index) => {
           <!-- project-one -->
           <div class="project-one-container width-100 display-flex">
             <div class="project-image width-100">
-              <img class="project-image width-100" src="${data[index].img}" alt="project name">
+              <img class="project-image width-100" src="${data[i].img}" alt="project name">
             </div>
             <div class="project-body">
-              <h2>${data[index].name}</h2>
+              <h2>${data[i].name}</h2>
               <ul class="display-flex">
-                <li>${data[index].tags[0]}</li>
-                <li>${data[index].tags[1]}</li>
-                <li>${data[index].tags[2]}</li>
+                <li>${data[i].tags[0]}</li>
+                <li>${data[i].tags[1]}</li>
+                <li>${data[i].tags[2]}</li>
               </ul>
               <div class="btn-project-container display-flex">
                 <button class="see-btn" type="button">see project <i class="fa-solid fa-arrow-right"></i></button>
@@ -93,7 +94,7 @@ Array.from(portfolio.children).forEach((element, index) => {
       </div>
     </section>
 `;
-});
+};
 
 document.querySelector('.project-one').classList.remove('hide-in-mobile');
 
@@ -112,7 +113,7 @@ desktop.innerHTML = `
                 <li>${data[0].tags[2]}</li>
               </ul>
               <div class="btn-project-container-desk display-flex">
-                <button class="see-btn" type="button">see project <i class="fa-solid fa-arrow-right"></i></button>
+               <button class="see-btn desktop-btn" type="button">see project <i class="fa-solid fa-arrow-right"></i></button>
               </div>
             </div>
           </div>
@@ -131,7 +132,7 @@ desktop.innerHTML = `
                 <li>${data[1].tags[2]}</li>
               </ul>
               <div class="btn-project-container-desk display-flex">
-                <button class="see-btn" type="button">see project <i class="fa-solid fa-arrow-right"></i></button>
+                <button class="see-btn desktop-btn" type="button">see project <i class="fa-solid fa-arrow-right"></i></button>
               </div>
             </div>
           </div>
@@ -150,7 +151,7 @@ desktop.innerHTML = `
                 <li>+1</li>
               </ul>
               <div class="btn-project-container-desk display-flex">
-                <button class="see-btn" type="button">see project <i class="fa-solid fa-arrow-right"></i></button>
+               <button class="see-btn desktop-btn" type="button">see project <i class="fa-solid fa-arrow-right"></i></button>
               </div>
             </div>
           </div>
@@ -168,7 +169,7 @@ desktop.innerHTML = `
                 <li>${data[3].tags[2]}</li>
               </ul>
               <div class="btn-project-container-desk display-flex">
-                <button class="see-btn" type="button">see project <i class="fa-solid fa-arrow-right"></i></button>
+               <button class="see-btn desktop-btn" type="button">see project <i class="fa-solid fa-arrow-right"></i></button>
               </div>
             </div>
           </div>
@@ -187,7 +188,7 @@ desktop.innerHTML = `
                 <li>+1</li>
               </ul>
               <div class="btn-project-container-desk display-flex">
-                <button class="see-btn" type="button">see project <i class="fa-solid fa-arrow-right"></i></button>
+                <button class="see-btn desktop-btn" type="button">see project <i class="fa-solid fa-arrow-right"></i></button>
               </div>
             </div>
           </div>
@@ -207,7 +208,7 @@ desktop.innerHTML = `
                 <li>${data[5].tags[2]}</li>
               </ul>
               <div class="btn-project-container-desk display-flex">
-                <button class="see-btn" type="button">see project <i class="fa-solid fa-arrow-right"></i></button>
+               <button class="see-btn desktop-btn" type="button">see project <i class="fa-solid fa-arrow-right"></i></button>
               </div>
             </div>
           </div>
@@ -219,7 +220,7 @@ desktop.innerHTML = `
 
 const popupContainer = document.querySelector('.popup-container');
 const seeProjectBtns = document.querySelectorAll('.see-btn'); // output:array
-
+const desktopBtn = document.querySelectorAll('.desktop-btn'); //output:array
 function openPopUp(index) {
   const div = document.createElement('div');
   div.className = 'popup';
@@ -244,9 +245,19 @@ seeProjectBtns.forEach((btn, index) => {
   });
 });
 
+
+
+desktopBtn.forEach((btn, index) => {
+  btn.addEventListener('click', () => {
+    openPopUp(index);
+  });
+});
+
+
 function closePopUp() {
   popupContainer.classList.add('display-none');
 }
 
 const closeBtnpop = document.querySelector('.close-popup');
 closeBtnpop.addEventListener('click', closePopUp);
+}

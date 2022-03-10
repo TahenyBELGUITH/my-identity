@@ -466,11 +466,9 @@ footer a {
 }
 
 .close-popup {
-  border: 2px solid #1a2236;
-  float: right;
   padding: 6px;
-  top: 2%;
-  left: 70%;
+  top: 5%;
+  left: 90%;
   position: fixed;
   z-index: 1002;
 }
