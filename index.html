@@ -153,9 +153,10 @@
           works.
           If you like what you see and have a project you need coded, don’t hesitate and contact me.</p>
         <form action="https://formspree.io/f/xlezbalb" method="post" id="formulaire">
-          <input type="text" name="name" placeholder="Your name" required>
-          <input type="email" name="email" placeholder="Your email" id="email" required><br>
-          <textarea name="message" placeholder="Write your message here" maxlength="500" required></textarea>
+          <input id="user" type="text" name="name" placeholder="Your name" required>
+          <input id="user-email" type="email" name="email" placeholder="Your email" required><br>
+          <textarea id="user-message" name="message" placeholder="Write your message here" maxlength="500"
+            required></textarea>
           <div class="btn">
             <button id="submit-btn" type="submit">start collaboration</button>
           </div>
@@ -196,6 +197,7 @@
     </nav>
   </footer>
 
+  <script src="local-storage.js" defer></script>
   <script src="modals.js" defer></script>
   <script src="menu.js" defer></script>
   <script src="validation.js" defer></script>
