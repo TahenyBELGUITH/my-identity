@@ -481,6 +481,8 @@ footer a {
 
 .error-text {
   color: red;
+  font-size: 20px;
+  line-height: 35px;
 }
 
 /* tablets */
