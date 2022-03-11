@@ -386,7 +386,7 @@ footer a {
   padding: 10% 0;
   width: 40%;
   text-align: center;
-  margin: 25% auto;
+  margin: 35% auto;
 }
 
 .popup a {
@@ -472,6 +472,10 @@ footer a {
   left: 280px;
   width: 4%;
   z-index: 900;
+}
+
+.error-text {
+  color: red;
 }
 
 /* tablets */
