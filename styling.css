@@ -387,7 +387,7 @@ footer a {
   padding: 10% 0;
   width: 40%;
   text-align: center;
-  margin: 25% auto;
+  margin: 45% auto;
 }
 
 .popup a {
@@ -477,6 +477,12 @@ footer a {
 .close-popup:hover {
   color: white;
   background-color: #1a2236;
+}
+
+.error-text {
+  color: red;
+  font-size: 20px;
+  line-height: 35px;
 }
 
 /* tablets */
@@ -899,7 +905,7 @@ footer a {
 
   input[type="text"],
   input[type="email"] {
-    width: 45%;
+    width: 46%;
     display: inline-block;
     height: 55px;
     margin-right: 20px;

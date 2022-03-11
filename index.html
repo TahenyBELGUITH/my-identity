@@ -2,6 +2,7 @@
 <html lang="en">
 
 <head>
+  <meta charset="UTF-8">
   <!-- Global site tag (gtag.js) - Google Analytics -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-EK79ENNK5L"></script>
   <script>
@@ -12,7 +13,7 @@
     gtag('config', 'G-EK79ENNK5L');
   </script>
   <!-- End -->
-  <meta charset="UTF-8">
+
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="styling.css">
@@ -78,7 +79,7 @@
     </section>
 
 
-   <!-- desktop -->
+    <!-- desktop -->
     <section class="portfolio-2">
     </section>
 
@@ -151,13 +152,14 @@
         <p>Hello! I am a software developer! I can help you build a product, feature or website. Take a look of my
           works.
           If you like what you see and have a project you need coded, don’t hesitate and contact me.</p>
-        <form action="https://formspree.io/f/xlezbalb" method="post">
+        <form action="https://formspree.io/f/xlezbalb" method="post" id="formulaire">
           <input type="text" name="name" placeholder="Your name" required>
-          <input type="email" name="email" placeholder="Your email" required>
+          <input type="email" name="email" placeholder="Your email" id="email" required><br>
           <textarea name="message" placeholder="Write your message here" maxlength="500" required></textarea>
           <div class="btn">
-            <button type="submit">start collaboration</button>
+            <button id="submit-btn" type="submit">start collaboration</button>
           </div>
+          <small class="error-text" id="small"></small>
         </form>
       </div>
     </section>
@@ -193,9 +195,10 @@
       </ul>
     </nav>
   </footer>
-  <script src="modals.js"></script>
-  <script src="menu.js"></script>
-  <script src="form-validation.js"></script>
+
+  <script src="modals.js" defer></script>
+  <script src="menu.js" defer></script>
+  <script src="validation.js" defer></script>
 </body>
 
 </html>
