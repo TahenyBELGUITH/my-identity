@@ -76,6 +76,7 @@ body {
   color: #1a2236;
   background-color: white;
   border: 2px solid #1a2236;
+  transition: 0.3s ease-in-out;
 }
 
 .separator-shape img {
@@ -466,12 +467,16 @@ footer a {
 }
 
 .close-popup {
+  padding: 6px;
+  top: 5%;
+  left: 90%;
   position: fixed;
-  top: 18px;
-  bottom: 0;
-  left: 280px;
-  width: 4%;
-  z-index: 900;
+  z-index: 1002;
+}
+
+.close-popup:hover {
+  color: white;
+  background-color: #1a2236;
 }
 
 .error-text {
@@ -881,9 +886,7 @@ footer a {
 
   .form-container {
     background-color: #f9f9fa;
-    background-image:
-      url("images/formtop.svg"),
-      url("images/formbuttom.svg");
+    background-image: url("images/formtop.svg"), url("images/formbuttom.svg");
     background-repeat: no-repeat;
     background-position: 0 0, 100% 100%;
     background-size: 20%;
