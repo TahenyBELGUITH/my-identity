@@ -1,5 +1,6 @@
 const formulaire = document.querySelector('#formulaire');
 
+
 formulaire.addEventListener('submit', (event) => {
   event.preventDefault();
 
@@ -12,9 +13,7 @@ formulaire.addEventListener('submit', (event) => {
   localStorage.setItem('formContent', JSON.stringify(userInfo));
 });
 
-const formInput = JSON.parse(localStorage.getItem('formContent'));
-if (formInput != null) {
-  document.querySelector('#user').value = formInput.name;
-  document.querySelector('#user-email').value = formInput.email;
-  document.querySelector('#user-message').value = formInput.feedback;
-}
+const formInputObj = JSON.parse(localStorage.getItem('formContent'));
+  document.querySelector('#user').value = formInputObj.name;
+  document.querySelector('#user-email').value = formInputObj.email;
+  document.querySelector('#user-message').value = formInputObj.feedback;
