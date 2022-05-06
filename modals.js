@@ -15,7 +15,7 @@ window.onload = () => {
       id: "project-two",
       name: "To-Do App",
       tags: ["html/css", "webpack", "javaScript"],
-      img: "images/p2.jpg",
+      img: "images/p5.jpg",
       description:
         "To-Do application is a web app that helps to organize your daily activities.",
       live: "https://tahenybelguith.github.io/to-Do-list/",
@@ -45,13 +45,13 @@ window.onload = () => {
     },
     {
       id: "project-five",
-      name: "project name goes here",
-      tags: ["html/css", "Ruby on Rails", "javaScript"],
+      name: "awesome Book ",
+      tags: ["html/css", "webpack", "javaScript"],
       img: "./images/project-five.svg",
       description:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled is simply ",
-      live: "https://tahenybelguith.github.io/my-identity/",
-      source: "https://github.com/TahenyBELGUITH/my-identity",
+        "A Micro-verse pair programming project on book library where the user can store his reading books ",
+      live: "https://tahenybelguith.github.io/Awesome_books_ES6/",
+      source: "https://github.com/TahenyBELGUITH/Awesome_books_ES6",
     },
     {
       id: "project-six",
