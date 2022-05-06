@@ -1,69 +1,73 @@
 // create array of my all objects
 window.onload = () => {
-  const data = [{
-    id: 'project-one',
-    name: 'project name goes here',
-    tags: ['html/css', 'Ruby on Rails', 'javaScript'],
-    img: 'images/project-one.svg',
-    description:
-      'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled is simply ',
-    live: 'https://tahenybelguith.github.io/my-identity/',
-    source: 'https://github.com/TahenyBELGUITH/my-identity',
-  },
-  {
-    id: 'project-two',
-    name: 'project name goes here',
-    tags: ['html/css', 'Ruby on Rails', 'javaScript'],
-    img: 'images/project-two.svg',
-    description:
-      'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled is simply ',
-    live: 'https://tahenybelguith.github.io/my-identity/',
-    source: 'https://github.com/TahenyBELGUITH/my-identity',
-  },
-  {
-    id: 'project-three',
-    name: 'project name goes here',
-    tags: ['html/css', 'Ruby on Rails', 'javaScript'],
-    img: './images/project-six.svg',
-    description:
-      'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled is simply ',
-    live: 'https://tahenybelguith.github.io/my-identity/',
-    source: 'https://github.com/TahenyBELGUITH/my-identity',
-  },
-  {
-    id: 'project-four',
-    name: 'project name goes here',
-    tags: ['html/css', 'Ruby on Rails', 'javaScript'],
-    img: './images/project-three.svg',
-    description:
-      'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled is simply ',
-    live: 'https://tahenybelguith.github.io/my-identity/',
-    source: 'https://github.com/TahenyBELGUITH/my-identity',
-  },
-  {
-    id: 'project-five',
-    name: 'project name goes here',
-    tags: ['html/css', 'Ruby on Rails', 'javaScript'],
-    img: './images/project-five.svg',
-    description:
-      'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled is simply ',
-    live: 'https://tahenybelguith.github.io/my-identity/',
-    source: 'https://github.com/TahenyBELGUITH/my-identity',
-  },
-  {
-    id: 'project-six',
-    name: 'project name goes here',
-    tags: ['html/css', 'Ruby on Rails', 'javaScript'],
-    img: './images/project-four.svg',
-    description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled is simply ',
-    live: 'https://tahenybelguith.github.io/my-identity/',
-    source: 'https://github.com/TahenyBELGUITH/my-identity',
-  },
+  const data = [
+    {
+      id: "project-one",
+      name: " Expo Dubai SUMMIT ",
+      tags: ["html/css", "webpack", "javaScript"],
+      img: "images/p1.jpg",
+      description:
+        " This project is based on an online website for EXPO DUBAI 2K20.",
+      live: "https://tahenybelguith.github.io/conferencePage/",
+      source: "https://github.com/TahenyBELGUITH/conferencePage",
+    },
+    {
+      id: "project-two",
+      name: "To-Do App",
+      tags: ["html/css", "webpack", "javaScript"],
+      img: "images/p5.jpg",
+      description:
+        "To-Do application is a web app that helps to organize your daily activities.",
+      live: "https://tahenybelguith.github.io/to-Do-list/",
+      source: "https://github.com/TahenyBELGUITH/to-Do-list",
+    },
+    {
+      id: "project-three",
+      name: "E-commerce product",
+      tags: ["html/css", "webpack", "javaScript"],
+      img: "./images/p3.jpg",
+      description:
+        "This is a solution to the E-commerce product page challenge on Frontend Mentor .",
+      live: "https://tahenybelguith.github.io/E-commerce-product-page/",
+      source:
+        "https://github.com/TahenyBELGUITH/E-commerce-product-page/tree/mobile",
+    },
+    {
+      id: "project-four",
+      name: "Interactive rating ",
+      tags: ["html/css", "webpack", "javaScript"],
+      img: "./images/p4.jpg",
+      description:
+        "This is a solution to the E-commerce product page challenge on Frontend Mentor .",
+      live: "https://tahenybelguith.github.io/interactive-rating-component/",
+      source:
+        "https://github.com/TahenyBELGUITH/interactive-rating-component/tree/solution",
+    },
+    {
+      id: "project-five",
+      name: "awesome Book ",
+      tags: ["html/css", "webpack", "javaScript"],
+      img: "./images/p2.jpg",
+      description:
+        "A Micro-verse pair programming project on book library where the user can store his reading books ",
+      live: "https://tahenybelguith.github.io/Awesome_books_ES6/",
+      source: "https://github.com/TahenyBELGUITH/Awesome_books_ES6",
+    },
+    {
+      id: "project-six",
+      name: "project name goes here",
+      tags: ["html/css", "Ruby on Rails", "javaScript"],
+      img: "./images/project-four.svg",
+      description:
+        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled is simply ",
+      live: "https://tahenybelguith.github.io/my-identity/",
+      source: "https://github.com/TahenyBELGUITH/my-identity",
+    },
   ];
 
   // create the portfolio section for mobile and desktop
-  const portfolio = document.querySelector('.portfolio');
-  portfolio.innerHTML = '';
+  const portfolio = document.querySelector(".portfolio");
+  portfolio.innerHTML = "";
   for (let i = 0; i < 6; i += 1) {
     portfolio.innerHTML += `
     <section class="projects-section hide" id="works">
@@ -96,9 +100,9 @@ window.onload = () => {
 `;
   }
 
-  document.querySelector('.project-one').classList.remove('hide-in-mobile');
+  document.querySelector(".project-one").classList.remove("hide-in-mobile");
 
-  const desktop = document.querySelector('.portfolio-2');
+  const desktop = document.querySelector(".portfolio-2");
   desktop.innerHTML = `
 <div class= "project-part-one">
       <h1 class="hide-in-mobile show header-part-one" >Projects</h1>
@@ -218,12 +222,12 @@ window.onload = () => {
 
   // the popup modals
 
-  const popupContainer = document.querySelector('.popup-container');
-  const seeProjectBtns = document.querySelectorAll('.see-btn'); // output:array
-  const desktopBtn = document.querySelectorAll('.desktop-btn'); // output:array
+  const popupContainer = document.querySelector(".popup-container");
+  const seeProjectBtns = document.querySelectorAll(".see-btn"); // output:array
+  const desktopBtn = document.querySelectorAll(".desktop-btn"); // output:array
   function openPopUp(index) {
-    const div = document.createElement('div');
-    div.className = 'popup';
+    const div = document.createElement("div");
+    div.className = "popup";
     div.innerHTML = `
         <h1>${data[index].name}</h1>
         <ul>
@@ -236,25 +240,25 @@ window.onload = () => {
         <button type="button"><a href="${data[index].live}">see live </a><i class="fa-solid fa-arrow-trend-up"></i></button>
         <button type="button"><a href="${data[index].source}">see source </a><i class="fa-brands fa-github"></i></button>`;
     popupContainer.appendChild(div);
-    popupContainer.classList.remove('display-none');
+    popupContainer.classList.remove("display-none");
   }
 
   seeProjectBtns.forEach((btn, index) => {
-    btn.addEventListener('click', () => {
+    btn.addEventListener("click", () => {
       openPopUp(index);
     });
   });
 
   desktopBtn.forEach((btn, index) => {
-    btn.addEventListener('click', () => {
+    btn.addEventListener("click", () => {
       openPopUp(index);
     });
   });
 
   function closePopUp() {
-    popupContainer.classList.add('display-none');
+    popupContainer.classList.add("display-none");
   }
 
-  const closeBtnpop = document.querySelector('.close-popup');
-  closeBtnpop.addEventListener('click', closePopUp);
+  const closeBtnpop = document.querySelector(".close-popup");
+  closeBtnpop.addEventListener("click", closePopUp);
 };
