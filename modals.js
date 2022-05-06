@@ -47,7 +47,7 @@ window.onload = () => {
       id: "project-five",
       name: "awesome Book ",
       tags: ["html/css", "webpack", "javaScript"],
-      img: "./images/project-five.svg",
+      img: "./images/p2.jpg",
       description:
         "A Micro-verse pair programming project on book library where the user can store his reading books ",
       live: "https://tahenybelguith.github.io/Awesome_books_ES6/",
